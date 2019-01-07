@@ -2,9 +2,9 @@
 This repository contains pcap traces of the HVAC system of a university. Its goal is to provide the research
 community interested in automation system security with real network traffic to evaluate, validate Network Intrustion Detection System 
 
-For privacy sake, the IP address have been anonymized with Crypto-Pan and the packet payload have been truncated.
+For privacy sake, the IP addresses have been anonymized with [Crypto-PAN](https://www.cc.gatech.edu/computing/Telecomm/projects/cryptopan/) and the packet payload have been truncated.
 
-### IP Addresses
+### IP Addresses of Interest
 
 | IP Addresses 		| Component Type 	|
 |-------------------|------------------	|
@@ -26,12 +26,21 @@ For privacy sake, the IP address have been anonymized with Crypto-Pan and the pa
 |252.103.120.14		|	Gateway			|
 |252.103.120.9		|	Gateway			|
 |252.103.117.244	|	Gateway			|
-|252.103.119.160	|	Netbios Server	|
+|252.103.119.160	|	Netbios Node	|
 |206.120.97.255		| 	Broadcast IP	|
-|252.103.120.32		|	Netbios Server 	|
+|252.103.120.32		|	Netbios Node 	|
 |136.253.241		|	DNS Server		|
 |133.136.250.44		|	Update Server	|	
 |252.103.120.22		|	HMI				|
+|252.103.120.172	|	Netbios Node	|
+|252.103.120.10		|	Netbios Node	|
+|208.103.225.198	| 	SSDP Multicast	|
+|133.136.250.40		|	Update Server	|
+|114.185.182.52		| 	NTP Server		|
+|252.103.107.188	|	Netbios Node	|
+|252.103.120.34		| 	Netbios Node	|
+|252.103.120.33		| 	Netbios Node	|
+|252.102.233.48		| 	HTTP Server		|
 
 
 ### Uncommon Ports 
@@ -47,8 +56,9 @@ For privacy sake, the IP address have been anonymized with Crypto-Pan and the pa
 | 62868				|	DCE/RPC			|
 | 59303				|	DCE/RPC			|
 | 53566				|	DCE/RPC			|
-| 500000			|	Proprietary		|
+| 50000				|	Proprietary		|
 | 2499				|	Proprietary		|
+| 889				|   Update via HTTP	|
 
 
-TODO Add link to where traces are stored
+You can find the traces here [traces](https://drive.google.com/open?id=1iuSKJb5h__aQ2f41-fdz9e_yxYMV7cM6)
