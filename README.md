@@ -1,6 +1,6 @@
 # HVAC Traces
 This repository contains pcap traces of the HVAC system of a university. Its goal is to provide the research
-community interested in automation system security with real network traffic to evaluate, validate Network Intrustion Detection System 
+community interested in automation system security with real network traffic to evaluate, validate Network Intrustion Detection System. A detailed description of the system is presented [here](https://arxiv.org/pdf/1908.02118.pdf)
 
 For privacy sake, the IP addresses have been anonymized with [Crypto-PAN](https://www.cc.gatech.edu/computing/Telecomm/projects/cryptopan/) and the packet payload have been truncated.
 
